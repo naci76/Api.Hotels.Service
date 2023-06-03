@@ -1581,6 +1581,16 @@
           "bin/placeholder/Api.Hotels.Entity.dll": {}
         }
       },
+      "Api.Hotels.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Api.Hotels.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.Hotels.Models.dll": {}
+        }
+      },
       "Api.Hotels.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5926,6 +5936,11 @@
       "path": "../Api.Hotels.Entity/Api.Hotels.Entity.csproj",
       "msbuildProject": "../Api.Hotels.Entity/Api.Hotels.Entity.csproj"
     },
+    "Api.Hotels.Models/1.0.0": {
+      "type": "project",
+      "path": "../Api.Hotels.Models/Api.Hotels.Models.csproj",
+      "msbuildProject": "../Api.Hotels.Models/Api.Hotels.Models.csproj"
+    },
     "Api.Hotels.Repositories/1.0.0": {
       "type": "project",
       "path": "../Api.Hotels.Repositories/Api.Hotels.Repositories.csproj",
@@ -5935,6 +5950,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Api.Hotels.Entity >= 1.0.0",
+      "Api.Hotels.Models >= 1.0.0",
       "Api.Hotels.Repositories >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
@@ -5984,6 +6000,9 @@
           "projectReferences": {
             "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Entity\\Api.Hotels.Entity.csproj": {
               "projectPath": "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Entity\\Api.Hotels.Entity.csproj"
+            },
+            "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Models\\Api.Hotels.Models.csproj": {
+              "projectPath": "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Models\\Api.Hotels.Models.csproj"
             },
             "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Repositories\\Api.Hotels.Repositories.csproj": {
               "projectPath": "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Repositories\\Api.Hotels.Repositories.csproj"

@@ -18,7 +18,7 @@ namespace Api.Hotels.Service.Logger
         {
             using (StreamWriter streamWriter = new StreamWriter($"{_hostingEnvironment.ContentRootPath}/log.txt", true))
             {
-                await streamWriter.WriteLineAsync($"Log Level : {logLevel.ToString()} | Event ID : {eventId.Id} | Event Name : {eventId.Name} | Formatter : {formatter(state, exception)}");
+                await streamWriter.WriteLineAsync($" Log : {formatter(state, exception)}");
                 streamWriter.Close();
                 await streamWriter.DisposeAsync();
             }

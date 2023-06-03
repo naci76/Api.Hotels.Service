@@ -32,6 +32,8 @@
       "Api.Hotels.Service/1.0.0": {
         "dependencies": {
           "Api.Hotels.Entity": "1.0.0",
+          "Api.Hotels.Models": "1.0.0",
+          "Api.Hotels.Repositories": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
@@ -1450,6 +1452,25 @@
         },
         "compile": {
           "Api.Hotels.Entity.dll": {}
+        }
+      },
+      "Api.Hotels.Models/1.0.0": {
+        "runtime": {
+          "Api.Hotels.Models.dll": {}
+        },
+        "compile": {
+          "Api.Hotels.Models.dll": {}
+        }
+      },
+      "Api.Hotels.Repositories/1.0.0": {
+        "dependencies": {
+          "Api.Hotels.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Api.Hotels.Repositories.dll": {}
+        },
+        "compile": {
+          "Api.Hotels.Repositories.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3775,6 +3796,16 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Api.Hotels.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.Hotels.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.Hotels.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

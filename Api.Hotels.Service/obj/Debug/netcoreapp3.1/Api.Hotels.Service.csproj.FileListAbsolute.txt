@@ -84,3 +84,7 @@ C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\obj\De
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\obj\Debug\netcoreapp3.1\Api.Hotels.Service.genruntimeconfig.cache
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Entity.dll
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Entity.pdb
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Models.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Repositories.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Models.pdb
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Repositories.pdb

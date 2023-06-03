@@ -16,11 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Api.Hotels.Entity\Api.Hotels.Entity.csproj" />
+    <ProjectReference Include="..\Api.Hotels.Models\Api.Hotels.Models.csproj" />
     <ProjectReference Include="..\Api.Hotels.Repositories\Api.Hotels.Repositories.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Mapper\" />
   </ItemGroup>
 
 
