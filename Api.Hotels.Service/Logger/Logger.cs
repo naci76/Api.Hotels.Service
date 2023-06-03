@@ -18,7 +18,7 @@ namespace Api.Hotels.Service.Logger
         {
             using (StreamWriter streamWriter = new StreamWriter($"{_hostingEnvironment.ContentRootPath}/log.txt", true))
             {
-                await streamWriter.WriteLineAsync($" Log : {formatter(state, exception)}");
+                await streamWriter.WriteLineAsync($" Log({DateTime.Now.ToString()}) : {formatter(state, exception)}");
                 streamWriter.Close();
                 await streamWriter.DisposeAsync();
             }

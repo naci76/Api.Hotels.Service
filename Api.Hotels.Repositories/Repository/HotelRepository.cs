@@ -17,28 +17,57 @@ namespace Api.Hotels.Repositories.Repository
             db = _db;
         }
 
-        public void Add(Hotel hotelModel)
+        public void Add(Hotel model)
         {
-            db.Hotels.Add(hotelModel);
+            db.Hotels.Add(model);
         }
 
-        public void Delete(Hotel hotelModel)
+        public void Delete(Hotel model)
         {
-            db.Hotels.Remove(hotelModel);
+            var entity = db.Entry(model);
+            entity.State = EntityState.Deleted;
         }
 
-        public void Update(Hotel hotelModel)
+        public void Update(Hotel model)
         {
-            db.Hotels.Update(hotelModel);
+           var entity= db.Entry(model);
+            entity.State = EntityState.Modified;
         }
         public async Task<List<Hotel>> GetAll()
         {
-            return await db.Hotels.ToListAsync();
+            return await db.Hotels.Include(x=>x.HotelContacts).ToListAsync();
         }
 
         public async Task<Hotel> Get(int id)
         {
-            return await db.Hotels.Where(x => x.Id == id).FirstOrDefaultAsync();
+            return await db.Hotels.Where(x => x.Id == id).Include(x=>x.HotelContacts).FirstOrDefaultAsync();
+        }
+
+        public void AddHotelContact(HotelContact model)
+        {
+            db.hotelContacts.Add(model);
+        }
+
+        public void DeleteHotelContact(HotelContact model)
+        {
+            var entity = db.Entry(model);
+            entity.State = EntityState.Deleted;
+        }
+
+        public void UpdateHotelContact(HotelContact model)
+        {
+            var entity = db.Entry(model);
+            entity.State = EntityState.Modified;
+        }
+
+        public async Task<List<HotelContact>> GetAllHotelContact(int hotelId)
+        {
+            return await db.hotelContacts.Where(x=>x.Hotel.Id==hotelId).ToListAsync();
+        }
+
+        public async Task<HotelContact> GetHotelContact(int id)
+        {
+          return  await db.hotelContacts.Where(x => x.Id == id).FirstOrDefaultAsync();
         }
     }
 }

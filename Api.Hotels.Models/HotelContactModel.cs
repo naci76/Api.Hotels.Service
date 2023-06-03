@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Api.Hotels.Entity
+namespace Api.Hotels.Models
 {
-    public class HotelContact : BaseEntity
+    public class HotelContactModel:BaseModel
     {
         /// <summary>
         /// Yetkili Adı
@@ -21,6 +21,6 @@ namespace Api.Hotels.Entity
         public string Phone { get; set; }
         public string Email { get; set; }
         public int HotelId { get; set; }
-        public Hotel Hotel { get; set; }
+        public HotelModel Hotel { get; set; }
     }
 }

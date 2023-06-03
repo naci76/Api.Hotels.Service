@@ -1,0 +1,251 @@
+ Log(3.06.2023 14:53:35) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 14:53:35) : Hosting environment: Development
+ Log(3.06.2023 14:53:35) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 14:53:40) : Oteller listelendi
+ Log(3.06.2023 14:54:08) : Otel güncellendi
+ Log(3.06.2023 14:54:08) : An error occurred using a transaction.
+ Log(3.06.2023 14:54:14) : Oteller listelendi
+ Log(3.06.2023 14:54:46) : Otel güncellendi
+ Log(3.06.2023 14:56:34) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 14:56:34) : Hosting environment: Development
+ Log(3.06.2023 14:56:34) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 14:56:40) : Otel güncellendi
+ Log(3.06.2023 14:56:41) : An error occurred using the connection to database 'Hotels' on server '185.148.240.3'.
+ Log(3.06.2023 14:56:44) : Oteller listelendi
+ Log(3.06.2023 14:57:12) : Otel güncellendi
+ Log(3.06.2023 15:01:01) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:01:01) : Hosting environment: Development
+ Log(3.06.2023 15:01:01) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:01:08) : Otel güncellendi
+ Log(3.06.2023 15:01:08) : An error occurred using the connection to database 'Hotels' on server '185.148.240.3'.
+ Log(3.06.2023 15:01:12) : Oteller listelendi
+ Log(3.06.2023 15:02:09) : Otel güncellendi
+ Log(3.06.2023 15:02:20) : Oteller listelendi
+ Log(3.06.2023 15:02:24) : Oteller listelendi
+ Log(3.06.2023 15:03:20) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:03:20) : Hosting environment: Development
+ Log(3.06.2023 15:03:20) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:03:24) : Oteller listelendi
+ Log(3.06.2023 15:03:28) : Otel güncellendi
+ Log(3.06.2023 15:03:32) : Oteller listelendi
+ Log(3.06.2023 15:04:35) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:04:35) : Hosting environment: Development
+ Log(3.06.2023 15:04:35) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:04:58) : Oteller listelendi
+ Log(3.06.2023 15:05:10) : Otel silindi
+ Log(3.06.2023 15:05:14) : Oteller listelendi
+ Log(3.06.2023 15:05:21) : Otel silindi
+ Log(3.06.2023 15:05:22) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:05:33) : Oteller listelendi
+ Log(3.06.2023 15:05:59) : Otel listelendi
+ Log(3.06.2023 15:06:19) : Otel eklendi
+ Log(3.06.2023 15:06:23) : Otel listelendi
+ Log(3.06.2023 15:06:25) : Oteller listelendi
+ Log(3.06.2023 15:06:32) : Otel listelendi
+ Log(3.06.2023 15:06:37) : Otel listelendi
+ Log(3.06.2023 15:06:43) : Otel listelendi
+ Log(3.06.2023 15:11:30) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:11:30) : Hosting environment: Development
+ Log(3.06.2023 15:11:30) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:12:23) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:12:23) : Hosting environment: Development
+ Log(3.06.2023 15:12:23) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:12:51) : Oteller listelendi
+ Log(3.06.2023 15:27:33) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:27:33) : Hosting environment: Development
+ Log(3.06.2023 15:27:33) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:30:00) : Oteller listelendi
+ Log(3.06.2023 15:30:22) : Otel iletişim eklendi
+ Log(3.06.2023 15:30:23) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:30:37) : Otel iletişim eklendi
+ Log(3.06.2023 15:30:38) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:32:22) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:32:22) : Hosting environment: Development
+ Log(3.06.2023 15:32:22) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:32:33) : Otel iletişim eklendi
+ Log(3.06.2023 15:32:34) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:33:19) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:33:19) : Hosting environment: Development
+ Log(3.06.2023 15:33:19) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:33:31) : Otel iletişim eklendi
+ Log(3.06.2023 15:33:32) : Failed executing DbCommand (146ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Hotels] ([Id], [Lat], [Lon], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+ Log(3.06.2023 15:33:33) : An exception occurred in the database while saving changes for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Hotels' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:12ed3385-524d-4d03-911c-19efde93c763
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ Log(3.06.2023 15:33:33) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:35:15) : Otel iletişim eklendi
+ Log(3.06.2023 15:35:30) : Failed executing DbCommand (162ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Hotels] ([Id], [Lat], [Lon], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+ Log(3.06.2023 15:35:31) : An exception occurred in the database while saving changes for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Hotels' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:12ed3385-524d-4d03-911c-19efde93c763
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ Log(3.06.2023 15:35:31) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:36:49) : Otel iletişim eklendi
+ Log(3.06.2023 15:38:58) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:38:58) : Hosting environment: Development
+ Log(3.06.2023 15:38:58) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:39:04) : Otel iletişim eklendi
+ Log(3.06.2023 15:39:06) : Failed executing DbCommand (162ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Hotels] ([Id], [Lat], [Lon], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+ Log(3.06.2023 15:39:06) : An exception occurred in the database while saving changes for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Hotels' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f6a61412-bd9b-4ee9-8f7b-215e2de51e9d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ Log(3.06.2023 15:39:07) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:40:10) : Otel iletişim eklendi
+ Log(3.06.2023 15:40:34) : Oteller listelendi
+ Log(3.06.2023 15:42:58) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:42:58) : Hosting environment: Development
+ Log(3.06.2023 15:42:58) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:43:00) : Oteller listelendi
+ Log(3.06.2023 15:43:02) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:43:16) : Oteller listelendi
+ Log(3.06.2023 15:43:16) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:44:52) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:44:52) : Hosting environment: Development
+ Log(3.06.2023 15:44:52) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:45:12) : Oteller listelendi
+ Log(3.06.2023 15:45:13) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:45:21) : Oteller listelendi
+ Log(3.06.2023 15:45:23) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:50:17) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:50:17) : Hosting environment: Development
+ Log(3.06.2023 15:50:17) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:51:13) : Otel eklendi
+ Log(3.06.2023 15:51:28) : Otel eklendi
+ Log(3.06.2023 15:51:37) : Oteller listelendi
+ Log(3.06.2023 15:51:56) : Oteller listelendi
+ Log(3.06.2023 15:54:10) : Otel iletişim eklendi
+ Log(3.06.2023 15:54:19) : Oteller listelendi
+ Log(3.06.2023 15:54:20) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:55:07) : Oteller listelendi
+ Log(3.06.2023 15:55:20) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:56:29) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:56:29) : Hosting environment: Development
+ Log(3.06.2023 15:56:29) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:56:38) : Oteller listelendi
+ Log(3.06.2023 15:56:39) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 15:57:40) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 15:57:40) : Hosting environment: Development
+ Log(3.06.2023 15:57:40) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 15:57:43) : Oteller listelendi
+ Log(3.06.2023 15:57:48) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 16:03:27) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 16:03:27) : Hosting environment: Development
+ Log(3.06.2023 16:03:27) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 16:03:31) : Oteller listelendi
+ Log(3.06.2023 16:04:14) : Otel iletişimleri listelendi
+ Log(3.06.2023 16:04:19) : Otel iletişimleri listelendi
+ Log(3.06.2023 16:04:22) : Otel iletişimleri listelendi
+ Log(3.06.2023 16:04:57) : Otel iletişim güncellendi
+ Log(3.06.2023 16:05:06) : Otel iletişimleri listelendi
+ Log(3.06.2023 16:05:25) : Otel iletişim listelendi
+ Log(3.06.2023 16:05:42) : Otel iletişim silindi
+ Log(3.06.2023 16:05:49) : Otel iletişim listelendi
+ Log(3.06.2023 16:06:03) : Otel iletişim eklendi
+ Log(3.06.2023 16:06:05) : Failed executing DbCommand (114ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [hotelContacts] ([Id], [Email], [HotelId], [LastName], [Name], [Phone], [Title])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+ Log(3.06.2023 16:06:06) : An exception occurred in the database while saving changes for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'hotelContacts' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:443a40e6-a719-4916-a88c-d9a6cc140030
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ Log(3.06.2023 16:06:06) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 16:06:19) : Otel iletişim eklendi
+ Log(3.06.2023 16:06:23) : Otel iletişim listelendi
+ Log(3.06.2023 16:06:29) : Otel iletişim listelendi
+ Log(3.06.2023 16:06:43) : Otel iletişimleri listelendi
+ Log(3.06.2023 16:07:05) : Oteller listelendi

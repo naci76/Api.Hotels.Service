@@ -14,6 +14,8 @@ namespace Api.Hotels.Service.Mapper
         {
             CreateMap<Hotel, HotelModel>();
             CreateMap<HotelModel, Hotel>();
+            CreateMap<HotelContactModel, HotelContact>();
+            CreateMap<HotelContact, HotelContactModel>();
         }
     }
 }

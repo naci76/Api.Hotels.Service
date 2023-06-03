@@ -9,5 +9,6 @@ namespace Api.Hotels.Models
         public string Name { get; set; }
         public string Lat { get; set; }
         public string Lon { get; set; }
+        public List<HotelContactModel> HotelContacts { get; set; }
     }
 }

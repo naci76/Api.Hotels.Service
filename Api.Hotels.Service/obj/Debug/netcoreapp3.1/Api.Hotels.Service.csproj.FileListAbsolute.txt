@@ -88,3 +88,6 @@ C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\De
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Repositories.dll
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Models.pdb
 C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Api.Hotels.Repositories.pdb
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
