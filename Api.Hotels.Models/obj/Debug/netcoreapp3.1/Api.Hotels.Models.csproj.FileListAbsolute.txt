@@ -1,0 +1,10 @@
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\bin\Debug\netcoreapp3.1\Api.Hotels.Models.deps.json
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\bin\Debug\netcoreapp3.1\Api.Hotels.Models.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\bin\Debug\netcoreapp3.1\Api.Hotels.Models.pdb
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.csproj.AssemblyReference.cache
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.AssemblyInfoInputs.cache
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.AssemblyInfo.cs
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.dll
+C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Models\obj\Debug\netcoreapp3.1\Api.Hotels.Models.pdb

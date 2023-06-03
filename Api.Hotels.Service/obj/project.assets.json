@@ -1566,6 +1566,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Api.Hotels.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.Hotels.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.Hotels.Entity.dll": {}
+        }
+      },
+      "Api.Hotels.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Api.Hotels.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.Hotels.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.Hotels.Repositories.dll": {}
+        }
       }
     }
   },
@@ -5893,10 +5920,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Api.Hotels.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Api.Hotels.Entity/Api.Hotels.Entity.csproj",
+      "msbuildProject": "../Api.Hotels.Entity/Api.Hotels.Entity.csproj"
+    },
+    "Api.Hotels.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Api.Hotels.Repositories/Api.Hotels.Repositories.csproj",
+      "msbuildProject": "../Api.Hotels.Repositories/Api.Hotels.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Api.Hotels.Entity >= 1.0.0",
+      "Api.Hotels.Repositories >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
@@ -5942,7 +5981,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Entity\\Api.Hotels.Entity.csproj": {
+              "projectPath": "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Entity\\Api.Hotels.Entity.csproj"
+            },
+            "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Repositories\\Api.Hotels.Repositories.csproj": {
+              "projectPath": "C:\\Users\\Dev100\\source\\repos\\naci76\\Api.Hotels.Service\\Api.Hotels.Repositories\\Api.Hotels.Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,5 +14,14 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Hotels.Entity\Api.Hotels.Entity.csproj" />
+    <ProjectReference Include="..\Api.Hotels.Repositories\Api.Hotels.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapper\" />
+  </ItemGroup>
+
 
 </Project>
