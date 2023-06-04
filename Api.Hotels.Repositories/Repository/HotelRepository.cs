@@ -69,5 +69,16 @@ namespace Api.Hotels.Repositories.Repository
         {
           return  await db.hotelContacts.Where(x => x.Id == id).FirstOrDefaultAsync();
         }
+
+        public async Task<int> GetHotelCountByLocation(string lat, string lon)
+        {
+            return await db.Hotels.Where(x => x.Lat == lat && x.Lon==lon).CountAsync();
+
+        }
+
+        public async Task<int> GetPhoneCountByLocation(string lat, string lon)
+        {
+            return await db.Hotels.Where(x => x.Lat == lat && x.Lon == lon).Include(x => x.HotelContacts).SelectMany(y=>y.HotelContacts.Where(x=>x.Phone!=null)).CountAsync();
+        }
     }
 }

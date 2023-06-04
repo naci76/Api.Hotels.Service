@@ -18,5 +18,7 @@ namespace Api.Hotels.Repositories.IRepository
         void UpdateHotelContact(HotelContact model);
         Task<List<HotelContact>> GetAllHotelContact(int hotelId);
         Task<HotelContact> GetHotelContact(int id);
+        Task<int> GetHotelCountByLocation(string lat,string lon);
+        Task<int> GetPhoneCountByLocation(string lat, string lon);
     }
 }

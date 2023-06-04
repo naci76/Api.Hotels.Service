@@ -249,3 +249,157 @@ Error Number:544,State:1,Class:16
  Log(3.06.2023 16:06:29) : Otel iletişim listelendi
  Log(3.06.2023 16:06:43) : Otel iletişimleri listelendi
  Log(3.06.2023 16:07:05) : Oteller listelendi
+ Log(3.06.2023 17:19:10) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:19:10) : Hosting environment: Development
+ Log(3.06.2023 17:19:10) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:22:01) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:22:01) : Hosting environment: Development
+ Log(3.06.2023 17:22:01) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:22:40) : Otel sayısı alındı.
+ Log(3.06.2023 17:22:54) : Otel sayısı alındı.
+ Log(3.06.2023 17:23:15) : Telefon sayısı alındı.
+ Log(3.06.2023 17:23:15) : Failed executing DbCommand (156ms) [Parameters=[@__lat_0='?' (Size = 4000), @__lon_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COALESCE(SUM((
+    SELECT COUNT(*)
+    FROM [hotelContacts] AS [h]
+    WHERE [h0].[Id] = [h].[HotelId])), 0)
+FROM [Hotels] AS [h0]
+WHERE (([h0].[Lat] = @__lat_0) AND ([h0].[Lon] = @__lon_1)) AND EXISTS (
+    SELECT 1
+    FROM [hotelContacts] AS [h1]
+    WHERE ([h0].[Id] = [h1].[HotelId]) AND [h1].[Phone] IS NOT NULL)
+ Log(3.06.2023 17:23:15) : An exception occurred while iterating over the results of a query for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:55edc882-8811-492a-8af6-4f55ebd8a02c
+Error Number:130,State:1,Class:15
+ Log(3.06.2023 17:23:16) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 17:23:39) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:23:39) : Hosting environment: Development
+ Log(3.06.2023 17:23:39) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:23:46) : Telefon sayısı alındı.
+ Log(3.06.2023 17:23:47) : Failed executing DbCommand (132ms) [Parameters=[@__lat_0='?' (Size = 4000), @__lon_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COALESCE(SUM((
+    SELECT COUNT(*)
+    FROM [hotelContacts] AS [h]
+    WHERE [h0].[Id] = [h].[HotelId])), 0)
+FROM [Hotels] AS [h0]
+WHERE ([h0].[Lat] = @__lat_0) AND ([h0].[Lon] = @__lon_1)
+ Log(3.06.2023 17:23:47) : An exception occurred while iterating over the results of a query for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:897c6c86-1003-4e60-b910-5270990f9e0e
+Error Number:130,State:1,Class:15
+ Log(3.06.2023 17:23:48) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 17:25:10) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:25:10) : Hosting environment: Development
+ Log(3.06.2023 17:25:10) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:25:12) : Telefon sayısı alındı.
+ Log(3.06.2023 17:25:14) : Failed executing DbCommand (145ms) [Parameters=[@__lat_0='?' (Size = 4000), @__lon_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COALESCE(SUM((
+    SELECT COUNT(*)
+    FROM [hotelContacts] AS [h]
+    WHERE [h0].[Id] = [h].[HotelId])), 0)
+FROM [Hotels] AS [h0]
+WHERE ([h0].[Lat] = @__lat_0) AND ([h0].[Lon] = @__lon_1)
+ Log(3.06.2023 17:25:14) : An exception occurred while iterating over the results of a query for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:5550a8a7-66d3-4695-a50e-5530b27d1895
+Error Number:130,State:1,Class:15
+ Log(3.06.2023 17:25:15) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 17:26:24) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:26:24) : Hosting environment: Development
+ Log(3.06.2023 17:26:24) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:26:25) : Telefon sayısı alındı.
+ Log(3.06.2023 17:26:27) : Failed executing DbCommand (154ms) [Parameters=[@__lat_0='?' (Size = 4000), @__lon_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COALESCE(SUM((
+    SELECT COUNT(*)
+    FROM [hotelContacts] AS [h]
+    WHERE [h0].[Id] = [h].[HotelId])), 0)
+FROM [Hotels] AS [h0]
+WHERE ([h0].[Lat] = @__lat_0) AND ([h0].[Lon] = @__lon_1)
+ Log(3.06.2023 17:26:27) : An exception occurred while iterating over the results of a query for context type 'Api.Hotels.Entity.HotelDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3a389829-6f80-40a0-aef9-8dda5f666b4b
+Error Number:130,State:1,Class:15
+ Log(3.06.2023 17:26:27) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 17:29:48) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:29:48) : Hosting environment: Development
+ Log(3.06.2023 17:29:48) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:29:53) : Telefon sayısı alındı.
+ Log(3.06.2023 17:29:54) : An unhandled exception has occurred while executing the request.
+ Log(3.06.2023 17:32:30) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 17:32:30) : Hosting environment: Development
+ Log(3.06.2023 17:32:30) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 17:32:33) : Telefon sayısı alındı.
+ Log(3.06.2023 17:33:13) : Telefon sayısı alındı.
+ Log(3.06.2023 17:33:30) : Telefon sayısı alındı.
+ Log(3.06.2023 17:33:31) : Telefon sayısı alındı.
+ Log(3.06.2023 17:33:32) : Telefon sayısı alındı.
+ Log(3.06.2023 17:33:44) : Telefon sayısı alındı.
+ Log(3.06.2023 17:34:10) : Telefon sayısı alındı.
+ Log(3.06.2023 18:56:06) : Application started. Press Ctrl+C to shut down.
+ Log(3.06.2023 18:56:06) : Hosting environment: Development
+ Log(3.06.2023 18:56:06) : Content root path: C:\Users\Dev100\source\repos\naci76\Api.Hotels.Service\Api.Hotels.Service
+ Log(3.06.2023 18:59:58) : Telefon sayısı alındı.
+ Log(3.06.2023 19:00:02) : Otel sayısı alındı.
+ Log(3.06.2023 19:01:01) : Telefon sayısı alındı.
+ Log(3.06.2023 19:01:01) : Otel sayısı alındı.
+ Log(3.06.2023 19:01:05) : Telefon sayısı alındı.
+ Log(3.06.2023 19:01:05) : Otel sayısı alındı.
+ Log(3.06.2023 19:01:19) : Telefon sayısı alındı.
+ Log(3.06.2023 19:01:19) : Otel sayısı alındı.

@@ -108,5 +108,19 @@ namespace Api.Hotels.Service.Controllers
             logger.LogError("Otel iletişim listelendi");
             return Ok(mapper.Map<HotelContactModel>(await hotelRepository.GetHotelContact(id)));
         }
+        [HttpGet]
+        [Route("hotel-phone-count-get/{lat}/{lon}")]
+        public async Task<IActionResult> GetPhoneCountByLocation(string lon,string lat)
+        {
+            logger.LogError("Telefon sayısı alındı.");
+            return Ok(await hotelRepository.GetPhoneCountByLocation(lat,lon));
+        }
+        [HttpGet]
+        [Route("hotel-hotel-count-get/{lat}/{lon}")]
+        public async Task<IActionResult> GetHotelCountByLocation(string lon, string lat)
+        {
+            logger.LogError("Otel sayısı alındı.");
+            return Ok(await hotelRepository.GetHotelCountByLocation(lat, lon));
+        }
     }
 }
